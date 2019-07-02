@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="inventoryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DAILY_SELL">
+    <Key>
+      <PropertyRef Name="RECEIPT_NO" />
+    </Key>
+    <Property Name="RECEIPT_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="EMP">
+    <Key>
+      <PropertyRef Name="EMP_ID" />
+    </Key>
+    <Property Name="EMP_ID" Type="String" MaxLength="126" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMP_NAME" Type="String" MaxLength="126" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMP_PHONE" Type="String" MaxLength="126" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMP_SALARY" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="EMP_DEDUCTION" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ORDER_INFO">
+    <Key>
+      <PropertyRef Name="ORDER_NO" />
+    </Key>
+    <Property Name="ORDER_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ADVANCE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DUE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ORDER_DATE" Type="DateTime" Nullable="false" />
+    <Property Name="CONTACT_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ITEM_ORDER" Relationship="Self.SYS_C004029" FromRole="ORDER_INFO" ToRole="ITEM_ORDER" />
+  </EntityType>
+  <EntityType Name="BIN_izCQ6CO8RfujP83PIhZXUw___0">
+    <Key>
+      <PropertyRef Name="ORDER_NO" />
+      <PropertyRef Name="AMMOUNT" />
+    </Key>
+    <Property Name="ORDER_NO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TYPE" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DAILY_CONSUMPTION">
+    <Key>
+      <PropertyRef Name="DESCRIPTION" />
+      <PropertyRef Name="AMMOUNT" />
+    </Key>
+    <Property Name="DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DATES" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="ITEM_ORDER">
+    <Key>
+      <PropertyRef Name="ORDER_NO" />
+      <PropertyRef Name="TYPE" />
+      <PropertyRef Name="AMMOUNT" />
+    </Key>
+    <Property Name="ORDER_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <NavigationProperty Name="ORDER_INFO" Relationship="Self.SYS_C004029" FromRole="ITEM_ORDER" ToRole="ORDER_INFO" />
+  </EntityType>
+  <Association Name="SYS_C004029">
+    <End Role="ORDER_INFO" Type="Self.ORDER_INFO" Multiplicity="1" />
+    <End Role="ITEM_ORDER" Type="Self.ITEM_ORDER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDER_INFO">
+        <PropertyRef Name="ORDER_NO" />
+      </Principal>
+      <Dependent Role="ITEM_ORDER">
+        <PropertyRef Name="ORDER_NO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="inventoryEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DAILY_SELL" EntityType="Self.DAILY_SELL" />
+    <EntitySet Name="EMPs" EntityType="Self.EMP" />
+    <EntitySet Name="ORDER_INFO" EntityType="Self.ORDER_INFO" />
+    <EntitySet Name="BIN_izCQ6CO8RfujP83PIhZXUw___0" EntityType="Self.BIN_izCQ6CO8RfujP83PIhZXUw___0" />
+    <EntitySet Name="DAILY_CONSUMPTION" EntityType="Self.DAILY_CONSUMPTION" />
+    <EntitySet Name="ITEM_ORDER" EntityType="Self.ITEM_ORDER" />
+    <AssociationSet Name="SYS_C004029" Association="Self.SYS_C004029">
+      <End Role="ORDER_INFO" EntitySet="ORDER_INFO" />
+      <End Role="ITEM_ORDER" EntitySet="ITEM_ORDER" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

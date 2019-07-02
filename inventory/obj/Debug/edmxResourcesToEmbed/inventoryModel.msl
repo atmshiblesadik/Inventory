@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="inventoryModelStoreContainer" CdmEntityContainer="inventoryEntities">
+    <EntitySetMapping Name="DAILY_SELL">
+      <EntityTypeMapping TypeName="inventoryModel.DAILY_SELL">
+        <MappingFragment StoreEntitySet="DAILY_SELL">
+          <ScalarProperty Name="RECEIPT_NO" ColumnName="RECEIPT_NO" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPs">
+      <EntityTypeMapping TypeName="inventoryModel.EMP">
+        <MappingFragment StoreEntitySet="EMP">
+          <ScalarProperty Name="EMP_ID" ColumnName="EMP_ID" />
+          <ScalarProperty Name="EMP_NAME" ColumnName="EMP_NAME" />
+          <ScalarProperty Name="EMP_PHONE" ColumnName="EMP_PHONE" />
+          <ScalarProperty Name="EMP_SALARY" ColumnName="EMP_SALARY" />
+          <ScalarProperty Name="EMP_DEDUCTION" ColumnName="EMP_DEDUCTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDER_INFO">
+      <EntityTypeMapping TypeName="inventoryModel.ORDER_INFO">
+        <MappingFragment StoreEntitySet="ORDER_INFO">
+          <ScalarProperty Name="ORDER_NO" ColumnName="ORDER_NO" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="ADVANCE" ColumnName="ADVANCE" />
+          <ScalarProperty Name="DUE" ColumnName="DUE" />
+          <ScalarProperty Name="ORDER_DATE" ColumnName="ORDER_DATE" />
+          <ScalarProperty Name="CONTACT_NO" ColumnName="CONTACT_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BIN_izCQ6CO8RfujP83PIhZXUw___0">
+      <EntityTypeMapping TypeName="inventoryModel.BIN_izCQ6CO8RfujP83PIhZXUw___0">
+        <MappingFragment StoreEntitySet="BIN$izCQ6CO8RfujP83PIhZXUw==$0">
+          <ScalarProperty Name="ORDER_NO" ColumnName="ORDER_NO" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DAILY_CONSUMPTION">
+      <EntityTypeMapping TypeName="inventoryModel.DAILY_CONSUMPTION">
+        <MappingFragment StoreEntitySet="DAILY_CONSUMPTION">
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+          <ScalarProperty Name="DATES" ColumnName="DATES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ITEM_ORDER">
+      <EntityTypeMapping TypeName="inventoryModel.ITEM_ORDER">
+        <MappingFragment StoreEntitySet="ITEM_ORDER">
+          <ScalarProperty Name="ORDER_NO" ColumnName="ORDER_NO" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

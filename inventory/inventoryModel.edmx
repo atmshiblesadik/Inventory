@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="inventoryModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'ADMIN.BIN$eoaXQh6oQjurDhZGjTci1g==$0' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="BIN$eoaXQh6oQjurDhZGjTci1g==$0">
+          <Property Name="ORDER_NO" Type="varchar2" MaxLength="4000" />
+          <Property Name="TYPE" Type="varchar2" MaxLength="4000" />
+          <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ADMIN.BIN$izCQ6CO8RfujP83PIhZXUw==$0' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="BIN$izCQ6CO8RfujP83PIhZXUw==$0">
+          <Key>
+            <PropertyRef Name="ORDER_NO" />
+            <PropertyRef Name="AMMOUNT" />
+          </Key>
+          <Property Name="ORDER_NO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TYPE" Type="varchar2" MaxLength="4000" />
+          <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ADMIN.DAILY_CONSUMPTION' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="DAILY_CONSUMPTION">
+          <Key>
+            <PropertyRef Name="DESCRIPTION" />
+            <PropertyRef Name="AMMOUNT" />
+          </Key>
+          <Property Name="DESCRIPTION" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DATES" Type="date" />
+        </EntityType>
+        <EntityType Name="DAILY_SELL">
+          <Key>
+            <PropertyRef Name="RECEIPT_NO" />
+          </Key>
+          <Property Name="RECEIPT_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="TYPE" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" />
+        </EntityType>
+        <EntityType Name="EMP">
+          <Key>
+            <PropertyRef Name="EMP_ID" />
+          </Key>
+          <Property Name="EMP_ID" Type="varchar2" MaxLength="126" Nullable="false" />
+          <Property Name="EMP_NAME" Type="varchar2" MaxLength="126" Nullable="false" />
+          <Property Name="EMP_PHONE" Type="varchar2" MaxLength="126" Nullable="false" />
+          <Property Name="EMP_SALARY" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="EMP_DEDUCTION" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ADMIN.ITEM_ORDER' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="ITEM_ORDER">
+          <Key>
+            <PropertyRef Name="ORDER_NO" />
+            <PropertyRef Name="TYPE" />
+            <PropertyRef Name="AMMOUNT" />
+          </Key>
+          <Property Name="ORDER_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="TYPE" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ORDER_INFO">
+          <Key>
+            <PropertyRef Name="ORDER_NO" />
+          </Key>
+          <Property Name="ORDER_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="AMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ADVANCE" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DUE" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ORDER_DATE" Type="date" Nullable="false" />
+          <Property Name="CONTACT_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="SYS_C004029">
+          <End Role="ORDER_INFO" Type="Self.ORDER_INFO" Multiplicity="1" />
+          <End Role="ITEM_ORDER" Type="Self.ITEM_ORDER" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDER_INFO">
+              <PropertyRef Name="ORDER_NO" />
+            </Principal>
+            <Dependent Role="ITEM_ORDER">
+              <PropertyRef Name="ORDER_NO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="inventoryModelStoreContainer">
+          <EntitySet Name="DAILY_SELL" EntityType="Self.DAILY_SELL" Schema="ADMIN" store:Type="Tables" />
+          <EntitySet Name="EMP" EntityType="Self.EMP" Schema="ADMIN" store:Type="Tables" />
+          <EntitySet Name="ORDER_INFO" EntityType="Self.ORDER_INFO" Schema="ADMIN" store:Type="Tables" />
+          <EntitySet Name="BIN$izCQ6CO8RfujP83PIhZXUw==$0" EntityType="Self.BIN$izCQ6CO8RfujP83PIhZXUw==$0" store:Type="Tables" store:Schema="ADMIN">
+            <DefiningQuery>SELECT 
+"BIN$izCQ6CO8RfujP83PIhZXUw==$0"."ORDER_NO" AS "ORDER_NO", 
+"BIN$izCQ6CO8RfujP83PIhZXUw==$0"."TYPE" AS "TYPE", 
+"BIN$izCQ6CO8RfujP83PIhZXUw==$0"."AMMOUNT" AS "AMMOUNT"
+FROM "ADMIN"."BIN$izCQ6CO8RfujP83PIhZXUw==$0" "BIN$izCQ6CO8RfujP83PIhZXUw==$0"</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="DAILY_CONSUMPTION" EntityType="Self.DAILY_CONSUMPTION" store:Type="Tables" store:Schema="ADMIN">
+            <DefiningQuery>SELECT 
+"DAILY_CONSUMPTION"."DESCRIPTION" AS "DESCRIPTION", 
+"DAILY_CONSUMPTION"."AMMOUNT" AS "AMMOUNT", 
+"DAILY_CONSUMPTION"."DATES" AS "DATES"
+FROM "ADMIN"."DAILY_CONSUMPTION" "DAILY_CONSUMPTION"</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="ITEM_ORDER" EntityType="Self.ITEM_ORDER" store:Type="Tables" store:Schema="ADMIN">
+            <DefiningQuery>SELECT 
+"ITEM_ORDER"."ORDER_NO" AS "ORDER_NO", 
+"ITEM_ORDER"."TYPE" AS "TYPE", 
+"ITEM_ORDER"."AMMOUNT" AS "AMMOUNT"
+FROM "ADMIN"."ITEM_ORDER" "ITEM_ORDER"</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="SYS_C004029" Association="Self.SYS_C004029">
+            <End Role="ORDER_INFO" EntitySet="ORDER_INFO" />
+            <End Role="ITEM_ORDER" EntitySet="ITEM_ORDER" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="inventoryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DAILY_SELL">
+          <Key>
+            <PropertyRef Name="RECEIPT_NO" />
+          </Key>
+          <Property Name="RECEIPT_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" />
+        </EntityType>
+        <EntityType Name="EMP">
+          <Key>
+            <PropertyRef Name="EMP_ID" />
+          </Key>
+          <Property Name="EMP_ID" Type="String" MaxLength="126" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EMP_NAME" Type="String" MaxLength="126" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EMP_PHONE" Type="String" MaxLength="126" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EMP_SALARY" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="EMP_DEDUCTION" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ORDER_INFO">
+          <Key>
+            <PropertyRef Name="ORDER_NO" />
+          </Key>
+          <Property Name="ORDER_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ADVANCE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DUE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ORDER_DATE" Type="DateTime" Nullable="false" />
+          <Property Name="CONTACT_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ITEM_ORDER" Relationship="Self.SYS_C004029" FromRole="ORDER_INFO" ToRole="ITEM_ORDER" />
+        </EntityType>
+        <EntityType Name="BIN_izCQ6CO8RfujP83PIhZXUw___0">
+          <Key>
+            <PropertyRef Name="ORDER_NO" />
+            <PropertyRef Name="AMMOUNT" />
+          </Key>
+          <Property Name="ORDER_NO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TYPE" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+          <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DAILY_CONSUMPTION">
+          <Key>
+            <PropertyRef Name="DESCRIPTION" />
+            <PropertyRef Name="AMMOUNT" />
+          </Key>
+          <Property Name="DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DATES" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="ITEM_ORDER">
+          <Key>
+            <PropertyRef Name="ORDER_NO" />
+            <PropertyRef Name="TYPE" />
+            <PropertyRef Name="AMMOUNT" />
+          </Key>
+          <Property Name="ORDER_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AMMOUNT" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="ORDER_INFO" Relationship="Self.SYS_C004029" FromRole="ITEM_ORDER" ToRole="ORDER_INFO" />
+        </EntityType>
+        <Association Name="SYS_C004029">
+          <End Role="ORDER_INFO" Type="Self.ORDER_INFO" Multiplicity="1" />
+          <End Role="ITEM_ORDER" Type="Self.ITEM_ORDER" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDER_INFO">
+              <PropertyRef Name="ORDER_NO" />
+            </Principal>
+            <Dependent Role="ITEM_ORDER">
+              <PropertyRef Name="ORDER_NO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="inventoryEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DAILY_SELL" EntityType="Self.DAILY_SELL" />
+          <EntitySet Name="EMPs" EntityType="Self.EMP" />
+          <EntitySet Name="ORDER_INFO" EntityType="Self.ORDER_INFO" />
+          <EntitySet Name="BIN_izCQ6CO8RfujP83PIhZXUw___0" EntityType="Self.BIN_izCQ6CO8RfujP83PIhZXUw___0" />
+          <EntitySet Name="DAILY_CONSUMPTION" EntityType="Self.DAILY_CONSUMPTION" />
+          <EntitySet Name="ITEM_ORDER" EntityType="Self.ITEM_ORDER" />
+          <AssociationSet Name="SYS_C004029" Association="Self.SYS_C004029">
+            <End Role="ORDER_INFO" EntitySet="ORDER_INFO" />
+            <End Role="ITEM_ORDER" EntitySet="ITEM_ORDER" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="inventoryModelStoreContainer" CdmEntityContainer="inventoryEntities">
+          <EntitySetMapping Name="DAILY_SELL">
+            <EntityTypeMapping TypeName="inventoryModel.DAILY_SELL">
+              <MappingFragment StoreEntitySet="DAILY_SELL">
+                <ScalarProperty Name="RECEIPT_NO" ColumnName="RECEIPT_NO" />
+                <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+                <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EMPs">
+            <EntityTypeMapping TypeName="inventoryModel.EMP">
+              <MappingFragment StoreEntitySet="EMP">
+                <ScalarProperty Name="EMP_ID" ColumnName="EMP_ID" />
+                <ScalarProperty Name="EMP_NAME" ColumnName="EMP_NAME" />
+                <ScalarProperty Name="EMP_PHONE" ColumnName="EMP_PHONE" />
+                <ScalarProperty Name="EMP_SALARY" ColumnName="EMP_SALARY" />
+                <ScalarProperty Name="EMP_DEDUCTION" ColumnName="EMP_DEDUCTION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ORDER_INFO">
+            <EntityTypeMapping TypeName="inventoryModel.ORDER_INFO">
+              <MappingFragment StoreEntitySet="ORDER_INFO">
+                <ScalarProperty Name="ORDER_NO" ColumnName="ORDER_NO" />
+                <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+                <ScalarProperty Name="ADVANCE" ColumnName="ADVANCE" />
+                <ScalarProperty Name="DUE" ColumnName="DUE" />
+                <ScalarProperty Name="ORDER_DATE" ColumnName="ORDER_DATE" />
+                <ScalarProperty Name="CONTACT_NO" ColumnName="CONTACT_NO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BIN_izCQ6CO8RfujP83PIhZXUw___0">
+            <EntityTypeMapping TypeName="inventoryModel.BIN_izCQ6CO8RfujP83PIhZXUw___0">
+              <MappingFragment StoreEntitySet="BIN$izCQ6CO8RfujP83PIhZXUw==$0">
+                <ScalarProperty Name="ORDER_NO" ColumnName="ORDER_NO" />
+                <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+                <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DAILY_CONSUMPTION">
+            <EntityTypeMapping TypeName="inventoryModel.DAILY_CONSUMPTION">
+              <MappingFragment StoreEntitySet="DAILY_CONSUMPTION">
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+                <ScalarProperty Name="DATES" ColumnName="DATES" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ITEM_ORDER">
+            <EntityTypeMapping TypeName="inventoryModel.ITEM_ORDER">
+              <MappingFragment StoreEntitySet="ITEM_ORDER">
+                <ScalarProperty Name="ORDER_NO" ColumnName="ORDER_NO" />
+                <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+                <ScalarProperty Name="AMMOUNT" ColumnName="AMMOUNT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

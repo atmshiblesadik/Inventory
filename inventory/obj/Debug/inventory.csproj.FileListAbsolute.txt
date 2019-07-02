@@ -1,0 +1,231 @@
+H:\Work_Space\nadia\inventory\inventory\bin\Debug\inventory.exe.config
+H:\Work_Space\nadia\inventory\inventory\bin\Debug\inventory.exe
+H:\Work_Space\nadia\inventory\inventory\bin\Debug\inventory.pdb
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.exe
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.pdb
+H:\Work_Space\nadia\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+H:\Work_Space\nadia\inventory\inventory\bin\Debug\MetroFramework.dll
+H:\Work_Space\nadia\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.login.resources
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.employee.resources
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+H:\Work_Space\nadia\inventory\inventory\obj\Debug\inventory.dailySell.resources
+H:\Work_Space\nadia\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\amin\Desktop\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+C:\Users\amin\Desktop\inventory\inventory\inventory\bin\Debug\Oracle.Web.dll
+C:\Users\rubay\Downloads\Compressed\inventory 1\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\rubay\Downloads\Compressed\inventory 1\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\rubay\Downloads\Compressed\inventory 1\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1.mdf
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1_log.ldf
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1.mdf
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1_log.ldf
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.multiOrder.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 2)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.totalAmmountPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1.mdf
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1_log.ldf
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.totalAmmountPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.multiOrder.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\rubay\Downloads\Compressed\inventory(update microsoft sql 3)\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1.mdf
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1_log.ldf
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Oracle.Web.dll
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.totalAmmountPanel.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\moham\OneDrive\Desktop\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.exe
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.pdb
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1.mdf
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Database1_log.ldf
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.exe
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\inventory.pdb
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.totalAmmountPanel.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+G:\Work Station\CSharp\c# project\inventory(update microsoft sql 3(new))\inventory(update microsoft sql 3(new))\inventory(update microsoft sql)\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\Database1.mdf
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\Database1_log.ldf
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.totalAmmountPanel.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+C:\Users\moham\OneDrive\Desktop\CSharp_Project\inventory\inventory\obj\Debug\inventory.info.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\Database1.mdf
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\Database1_log.ldf
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rubay\Downloads\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.info.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.totalAmmountPanel.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\rubay\Downloads\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\inventory.exe.config
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.exe
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.pdb
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\Database1.mdf
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\Database1_log.ldf
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\inventory.exe
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\inventory.pdb
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\EntityFramework.dll
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\MetroFramework.Design.dll
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\MetroFramework.dll
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\bin\Debug\EntityFramework.xml
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.csprojResolveAssemblyReference.cache
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.adminPanel.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.dailyConsumption.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.dailySell.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.info.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.totalAmmountPanel.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.login.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.orderPanel.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.Properties.Resources.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.employee.resources
+C:\Users\ATM-USER\Downloads\lastCS\inventory\inventory\inventory\obj\Debug\inventory.csproj.GenerateResource.Cache

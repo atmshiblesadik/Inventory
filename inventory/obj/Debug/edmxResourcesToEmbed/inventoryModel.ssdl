@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="inventoryModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'ADMIN.BIN$eoaXQh6oQjurDhZGjTci1g==$0' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="BIN$eoaXQh6oQjurDhZGjTci1g==$0">
+          <Property Name="ORDER_NO" Type="varchar2" MaxLength="4000" />
+          <Property Name="TYPE" Type="varchar2" MaxLength="4000" />
+          <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ADMIN.BIN$izCQ6CO8RfujP83PIhZXUw==$0' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="BIN$izCQ6CO8RfujP83PIhZXUw==$0">
+    <Key>
+      <PropertyRef Name="ORDER_NO" />
+      <PropertyRef Name="AMMOUNT" />
+    </Key>
+    <Property Name="ORDER_NO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TYPE" Type="varchar2" MaxLength="4000" />
+    <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ADMIN.DAILY_CONSUMPTION' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="DAILY_CONSUMPTION">
+    <Key>
+      <PropertyRef Name="DESCRIPTION" />
+      <PropertyRef Name="AMMOUNT" />
+    </Key>
+    <Property Name="DESCRIPTION" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DATES" Type="date" />
+  </EntityType>
+  <EntityType Name="DAILY_SELL">
+    <Key>
+      <PropertyRef Name="RECEIPT_NO" />
+    </Key>
+    <Property Name="RECEIPT_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="TYPE" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="EMP">
+    <Key>
+      <PropertyRef Name="EMP_ID" />
+    </Key>
+    <Property Name="EMP_ID" Type="varchar2" MaxLength="126" Nullable="false" />
+    <Property Name="EMP_NAME" Type="varchar2" MaxLength="126" Nullable="false" />
+    <Property Name="EMP_PHONE" Type="varchar2" MaxLength="126" Nullable="false" />
+    <Property Name="EMP_SALARY" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="EMP_DEDUCTION" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ADMIN.ITEM_ORDER' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ITEM_ORDER">
+    <Key>
+      <PropertyRef Name="ORDER_NO" />
+      <PropertyRef Name="TYPE" />
+      <PropertyRef Name="AMMOUNT" />
+    </Key>
+    <Property Name="ORDER_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="TYPE" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="AMMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ORDER_INFO">
+    <Key>
+      <PropertyRef Name="ORDER_NO" />
+    </Key>
+    <Property Name="ORDER_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="AMOUNT" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ADVANCE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DUE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ORDER_DATE" Type="date" Nullable="false" />
+    <Property Name="CONTACT_NO" Type="varchar2" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="SYS_C004029">
+    <End Role="ORDER_INFO" Type="Self.ORDER_INFO" Multiplicity="1" />
+    <End Role="ITEM_ORDER" Type="Self.ITEM_ORDER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDER_INFO">
+        <PropertyRef Name="ORDER_NO" />
+      </Principal>
+      <Dependent Role="ITEM_ORDER">
+        <PropertyRef Name="ORDER_NO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="inventoryModelStoreContainer">
+    <EntitySet Name="DAILY_SELL" EntityType="Self.DAILY_SELL" Schema="ADMIN" store:Type="Tables" />
+    <EntitySet Name="EMP" EntityType="Self.EMP" Schema="ADMIN" store:Type="Tables" />
+    <EntitySet Name="ORDER_INFO" EntityType="Self.ORDER_INFO" Schema="ADMIN" store:Type="Tables" />
+    <EntitySet Name="BIN$izCQ6CO8RfujP83PIhZXUw==$0" EntityType="Self.BIN$izCQ6CO8RfujP83PIhZXUw==$0" store:Type="Tables" store:Schema="ADMIN">
+      <DefiningQuery>SELECT 
+"BIN$izCQ6CO8RfujP83PIhZXUw==$0"."ORDER_NO" AS "ORDER_NO", 
+"BIN$izCQ6CO8RfujP83PIhZXUw==$0"."TYPE" AS "TYPE", 
+"BIN$izCQ6CO8RfujP83PIhZXUw==$0"."AMMOUNT" AS "AMMOUNT"
+FROM "ADMIN"."BIN$izCQ6CO8RfujP83PIhZXUw==$0" "BIN$izCQ6CO8RfujP83PIhZXUw==$0"</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="DAILY_CONSUMPTION" EntityType="Self.DAILY_CONSUMPTION" store:Type="Tables" store:Schema="ADMIN">
+      <DefiningQuery>SELECT 
+"DAILY_CONSUMPTION"."DESCRIPTION" AS "DESCRIPTION", 
+"DAILY_CONSUMPTION"."AMMOUNT" AS "AMMOUNT", 
+"DAILY_CONSUMPTION"."DATES" AS "DATES"
+FROM "ADMIN"."DAILY_CONSUMPTION" "DAILY_CONSUMPTION"</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ITEM_ORDER" EntityType="Self.ITEM_ORDER" store:Type="Tables" store:Schema="ADMIN">
+      <DefiningQuery>SELECT 
+"ITEM_ORDER"."ORDER_NO" AS "ORDER_NO", 
+"ITEM_ORDER"."TYPE" AS "TYPE", 
+"ITEM_ORDER"."AMMOUNT" AS "AMMOUNT"
+FROM "ADMIN"."ITEM_ORDER" "ITEM_ORDER"</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="SYS_C004029" Association="Self.SYS_C004029">
+      <End Role="ORDER_INFO" EntitySet="ORDER_INFO" />
+      <End Role="ITEM_ORDER" EntitySet="ITEM_ORDER" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
